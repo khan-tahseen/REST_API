@@ -1,0 +1,26 @@
+GET http://localhost:4000/subscribers
+
+###
+GET http://localhost:4000/subscribers/6477b0a88e69bcfa6ebef9de
+
+###
+POST http://localhost:4000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Arjun",
+    "subscribedToChannel": "Tahseen new Channel"
+}
+
+
+###
+DELETE http://localhost:4000/subscribers/6478b7255faa81a4a839da59
+
+###
+PATCH http://localhost:4000/subscribers/6477b0a88e69bcfa6ebef9de
+Content-Type: application/json
+
+{
+    "name": "Anil bro",
+    "subscribedToChannel": "My New Channel"
+}
